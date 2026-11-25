@@ -8,7 +8,7 @@ An automated Linux shell toolset for unlocking and rooting the **Rand McNally TN
 
 ## Overview
 
-The Rand McNally TND Tablet runs a locked-down build of Android 8.1 on a MediaTek chipset with public firmware images. This repository automates the Python environment setup and `mtkclient` execution required to dump partitions, disable verified boot (`vbmeta`), and achieve full root access.
+The Rand McNally TND Tablet runs a locked-down build of Android 8.1 on a MediaTek chipset with no public firmware images. This repository automates the Python environment setup and `mtkclient` execution required to dump partitions, disable verified boot (`vbmeta`), and achieve full root access.
 
 ## Repository Structure
 
