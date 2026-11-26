@@ -32,7 +32,8 @@ echo "Please unplug the usb cord and then turn the device on, once the device is
 read -rsn1
 
 echo "Installing and launching magisk via ADB"
-adb install assets/apps/magisk_26400.apk
+adb install assets/apps/magisk_22000.apk
+adb install assets/apps/magisk_26400.apk 2>/dev/null
 echo "Sending boot.img"
 adb push backup/boot.bin /sdcard/boot.img
 echo "Done, now open magisk and patch the boot.bin. when done type the code after magisk_patched-26400_<code>.img. boot.bin is not on sdcard but infact on Internal Storage"

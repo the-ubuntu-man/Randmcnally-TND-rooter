@@ -61,7 +61,17 @@ chmod +x main.sh setup-venv.sh mtkclient-executor.sh
 
 ---
 
+## Latest Updates
+Added support for older TND tablets before android 6 to android 4.4.2 specificly via adding a new apk system
+
+`adb install assets/apps/magisk_22000`
+and then
+`adb install assets/apps/magisk_26400`
+
+on the lower system the second adb fails leaving it with the suported magisk v22.0
+on the higher systems the second adb succeeds leaving it with magisk v26.4
+
 ## Credits
 
 * Discovered, scripted, and maintained by **[@the-ubuntu-man](https://github.com/the-ubuntu-man)**
-* Uses by **[mtkclient](https://github.com/bkerler/mtkclient.git)** by bkerler
+* Uses mtkclient by **[mtkclient](https://github.com/bkerler/mtkclient.git)** by bkerler
