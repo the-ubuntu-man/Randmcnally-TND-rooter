@@ -42,7 +42,7 @@ cd Randmcnally-TND-rooter
 chmod +x main.sh setup-venv.sh mtkclient-executor.sh
 ```
 
-### 3. Run the Rooter
+### 3. Run the Rooter (as root user)
 ```bash
 ./main.sh
 ```
@@ -63,5 +63,5 @@ chmod +x main.sh setup-venv.sh mtkclient-executor.sh
 
 ## Credits
 
-* Discovered, scripted, and maintained by **[@the-ubuntu-man](https://github.com)**
-* Uses by **[mtkclient](https://github.com)** by bkerler
+* Discovered, scripted, and maintained by **[@the-ubuntu-man](https://github.com/the-ubuntu-man)**
+* Uses by **[mtkclient](https://github.com/bkerler/mtkclient.git)** by bkerler
