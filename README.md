@@ -39,7 +39,7 @@ cd Randmcnally-TND-rooter
 
 ### 2. Make Scripts Executable
 ```bash
-chmod +x main.sh setup-venv.sh mtkclient-executor.sh
+chmod +x main.sh setup-venv.sh mtkclient-executor.sh assets/scripts/root.sh assets/scripts/debloat.sh
 ```
 
 ### 3. Run the Rooter (as root user)
